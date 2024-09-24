@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <title>
+        Welcome page:su dung form de nhap du lieu va hien thi du lieu
+    </title>
+    <script language="javascript">
+        function DisplayWelcome(msg); {
+            alert("Hello," + msg);
+        }
+    </script>
+    <script src="~/Scripts/myJS/UserJavaScript.js"></script>
+</head>
+<body>
+    <form name="Welcome">
+        <input type="text" name="txtName" value="dasdasdasd" max="30" maxlength="50" size="50" />
+        <input type="button" name="btnWelcome" value="Welcome"
+               onclick="DisplayWelcome(txtName.value);" Homnay(); />
+    </form>
+</body>
+</html>

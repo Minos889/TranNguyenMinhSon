@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <title>
+        Welcome page: viet theo dang Inlane JS
+        Co su dung hop thoai Prompt de nhap du lieu va cau lenh document.write
+        de hien thi du lieu.
+    </title>
+
+</head>
+<body>
+    <script language="Javascript">
+        var Ten, Tuoi;//khai bao bien
+        //nhap du lieu
+        Ten = prompt("Hay nhap ten cua ban:", "");
+        Tuoi = prompt("Hay nhap tuoi cua ban:", "20");
+        //hien thi du lieu
+        document.write("Hello <b>" +Ten + "</b><br/>");
+        document.write("Tuoi cua ban la: <u>" + Tuoi + "</u>");
+
+    </script>
+</body>
+</html>
